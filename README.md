@@ -1,12 +1,12 @@
-Projeto Filmes
+# Projeto Filmes
 Landing page desenvolvida no curso da DevMedia.
 
-Objetivo
+## Objetivo
 Divulgação de filme.
 
-Tecnologias utilizadas
+## Tecnologias utilizadas
 HTML5
 CSS3
 
-Link
+## Link
 Clique aqui e acesse https://brunalourenco.github.io/Landing-page-lancamento-de-filme/
