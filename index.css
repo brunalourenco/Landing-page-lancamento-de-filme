@@ -1,0 +1,179 @@
+/* GLOBAL*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Monospace", sans-serif;
+  font-size: 1.6rem;
+  padding: 0.2rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.6rem;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 5rem;
+  font-size: 2.8rem;
+}
+
+h3 {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 5rem 2rem;
+  width: 100%;
+  max-width: 160rem;
+}
+
+/*CABECALHO */
+.menu {
+  width: 100%;
+  padding: 2rem 0;
+  border-bottom: 0.1rem solid #302136;
+  color: #fff;
+  background-color: #040206;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menu li {
+  margin: 0 3rem;
+}
+
+.menu a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2.8rem;
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url("image/capa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: calc(100vh - 4rem);
+}
+
+/* SECOES*/
+
+.limitar-secao {
+  max-width: 102.4rem;
+  margin: 0 auto;
+}
+
+.secao-sinopse h2 {
+  margin: 3rem 0 5rem;
+}
+
+.limitar-secao p {
+  font-size: 2rem;
+  line-height: 4rem;
+  margin: 1.2rem 0;
+}
+
+.secao-disponiblidade,
+.secao-imagens,
+.rodape {
+  background-color: #302136;
+  color: #fff;
+}
+
+.secao-imagens span {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.secao-imagens span a {
+  color: #24bbe0;
+}
+
+.rodape {
+  box-shadow: 0rem 1rem 2rem 0.5rem #ffff;
+}
+
+.rodape p {
+  width: 100%;
+  padding: 4rem 0;
+  box-shadow: 0 1rem 2rem 0.5rem #fff;
+  text-align: center;
+}
+
+/* DIVs */
+
+.conteudo_temporada {
+  min-height: 16rem;
+  padding: 2rem;
+  margin-bottom: 4rem;
+  background: #f0f0f0;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem 0.3rem #cac4c4;
+}
+
+.conteudo-temporada h3 {
+  text-align: left;
+  line-height: 3rem;
+}
+
+/* IMAGENS */
+
+.imagem-plataformas {
+  display: block;
+  width: 80%;
+  margin: 0 auto 5rem;
+  border: 0.1rem solid #fff;
+  box-shadow: 0 0 1rem 0.3rem #fff;
+}
+
+.galeria {
+  margin: 0 auto 2rem;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.galeria img {
+  width: 32rem;
+  min-height: 22rem;
+  margin: 2.5rem 2 rem;
+  box-shadow: 0 0 1rem 0.3rem #ffff;
+}
+
+::-webkit-scrollbar {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 1rem;
+  background-color: #f4f4f4;
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: #b8c0c2;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background-color: #888888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555555;
+}
